@@ -1,20 +1,33 @@
+* {
+  box-sizing: content-box;
+  padding: 0px 0px;
+  margin: 0;
+}
+
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(32, 42, 85);
-    color: whitesmoke;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(46, 43, 153);
+  color: rgb(242, 205, 141);
 }
 
 header {
-    justify-content: center;
-    text-align: center;
-    padding: 10px 20px;
-    margin: 0;
-    background-color: rgb(5, 18, 77);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  border-bottom: 3px solid gray;
+  background-color: rgb(14, 11, 102);
 }
 
-h1 {
-    margin: 0;
+header h1 {
+  font-size: 26pt;
+}
+
+main {
+  padding-top: 20px;
+}
+
+.output_card {
+  width: 80%;
 }
