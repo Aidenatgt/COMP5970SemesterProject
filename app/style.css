@@ -1,0 +1,20 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 42, 85);
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0;
+    background-color: rgb(5, 18, 77);
+}
+
+h1 {
+    margin: 0;
+}
